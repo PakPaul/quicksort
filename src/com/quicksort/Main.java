@@ -1,21 +1,13 @@
 package com.quicksort;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-
-        list.add(78);
-        list.add(98);
-        list.add(345);
-        list.add(-63);
-        list.add(0);
-        list.add(762);
-        list.add(-378);
-        list.add(23);
+        List<Integer> list = Arrays.asList(78,98,345,-63,0,762,-378,23);
 
         list = quicksort(list);
 
